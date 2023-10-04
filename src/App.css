@@ -4,3 +4,15 @@
   padding: 2rem;
   text-align: center;
 }
+.card h2{
+  font-size: 2rem;
+}
+.card{
+  border: 0.1rem solid black;
+  border-radius: 1rem;
+  padding: 1rem;
+  box-shadow: 0.2rem 0.2rem white;
+}
+.card img{
+  border-radius: 1rem;
+}
