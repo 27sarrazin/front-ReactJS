@@ -5,23 +5,6 @@
   text-align: center;
 }
 body{
-  background-color: rgb(255, 227, 227);
-}
-.card h2{
-  font-size: 2rem;
-}
-.card{
-  border: 0.1rem solid black;
-  border-radius: 1rem;
-  padding: 1rem;
- 
-  transition: all 0.1s;
-}
-.card:hover{
-  box-shadow: 0.2rem 0.2rem white;
-  translate: -0.2rem -0.2rem;
-}
-.card img{
-  border-radius: 1rem;
+  background-color: rgb(94, 93, 93);
 }
 

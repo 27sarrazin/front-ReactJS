@@ -1,0 +1,21 @@
+.card h2{
+    color: aliceblue;
+    font-size: 2rem;
+  }
+  .card{
+  
+    border: 0.1rem solid black;
+    border-radius: 1rem;
+    padding: 1rem;
+   
+    transition: all 0.1s;
+  }
+  .card:hover{
+    box-shadow: 0.2rem 0.2rem rgb(160, 103, 194);
+    translate: -0.2rem -0.2rem;
+  }
+  .card img{
+    border-radius: 1rem;
+  }
+  
+  
