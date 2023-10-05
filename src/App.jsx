@@ -5,9 +5,11 @@ function App() {
  
 //aqui vamos escrever nosso codigo
   return ( //por baixo do panos isso é javaScript
+  
     <>
      <Card/> 
     </>
+    //chamando o componente Card
   )
 }
 
