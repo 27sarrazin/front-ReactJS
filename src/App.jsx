@@ -25,9 +25,12 @@ const personagens = [
   return ( //por baixo do panos isso é javaScript
   
     <>
-      {personagens.map(function (personagem){ //a gente transforma cada item dessa lista em algo(texto etc.)
+    <div className='container'>
+        {personagens.map(function (personagem){ //a gente transforma cada item dessa lista em algo(texto etc.)
         return <Card  item={personagem} />
       })}
+    </div>
+     
     </>
     //chamando o componente Card
   )
