@@ -1,10 +1,13 @@
 import './Card.css'
 
-export default function Card(){ //minha funcao esta sendo importada
+export default function Card(props){ //minha funcao esta sendo importada
+    //console.log(props);
+    const item = props.item;
+
     return (
-        <div className='card'> 
-        <h2>Rick Sanche</h2>
-        <img src="https://rickandmortyapi.com/api/character/avatar/1.jpeg" alt="Rick" />
+        <div className="card"> 
+        <h2>{item.nome}</h2>
+        <img src={item.imageUrl} alt="Rick"/>
       </div>
     )
 }
