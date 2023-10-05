@@ -23,5 +23,16 @@
   .card img{
     border-radius: 1rem;
   }
+.tags-list{
+        margin-bottom: 1rem;
+}
+  .tag{
+    background-color:aliceblue ;
+    color:black;
+    border-radius: 0.5rem;
+    padding: 0.1rem 0.5rem;
+    font-weight: bold;
+    font-size: 0.9rem;
+  }
   
   
