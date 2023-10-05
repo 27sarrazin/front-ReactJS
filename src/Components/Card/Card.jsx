@@ -12,7 +12,7 @@ export default function Card(props){ //minha funcao esta sendo importada
             <div className='tag'>texto qualquer</div>
             <div className='tag'>texto qualquer</div>
             <div className='tag'>texto qualquer</div>
-            <div className='tag'>texto qualquer</div>
+           
         </div>
         <img src={item.imageUrl} alt="Rick"/>
       </div>
