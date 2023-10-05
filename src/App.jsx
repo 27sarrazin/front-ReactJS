@@ -12,10 +12,15 @@ function App() {
   imageUrl: 'https://rickandmortyapi.com/api/character/avatar/2.jpeg'
     
  }
+ const personagem3 = {
+  nome: 'Sumer',
+  imageUrl: 'https://rickandmortyapi.com/api/character/avatar/3.jpeg'
+    
+ }
 //criacao de array
 //vamos percorrer a lista inteira
 const personagens = [
-  personagem1, personagem2
+  personagem1, personagem2, personagem3
 ]
 
 
