@@ -1,10 +1,16 @@
 .card h2{
     color: aliceblue;
     font-size: 2rem;
+   
   }
+  .card h2:hover{
+    border-left: 0.3rem solid rgb(158, 37, 37);
+    }
+
+
   .card{
-  
     border: 0.1rem solid black;
+    cursor: pointer;
     border-radius: 1rem;
     padding: 1rem;
    
